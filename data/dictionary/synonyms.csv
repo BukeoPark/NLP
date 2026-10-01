@@ -1,0 +1,26 @@
+lang,concept,pattern,canonical,case_sensitive,note
+ko,전기차,전기\s*자동차,전기차,0,
+ko,전기차,(?<![A-Za-z0-9])(?:BEV|EV)s?(?![A-Za-z0-9]),전기차,1,EV3 등 모델명은 제외
+ko,전기차,이브이,전기차,0,
+ko,내연기관차,기름차,내연기관차,0,휘발유차·경유차는 하위 차종이라 유지
+ko,현대차,현대자동차,현대차,0,현대자동차그룹 → 현대차그룹 포함
+ko,도요타,토요타,도요타,0,
+ko,LG에너지솔루션,LG엔솔,LG에너지솔루션,0,
+ko,기후에너지환경부,기후부,기후에너지환경부,0,
+ko,국정감사,국감,국정감사,0,
+ko,이재명,李,이재명,0,대통령 지칭 한자 약칭
+ko,이재명,이 대통령,이재명 대통령,0,
+ko,미국,美는,미국은,0,받침에 맞게 조사 변경 (美는 → 미국은)
+ko,미국,美,미국,0,
+ko,중국,中,중국,0,
+ko,일본,日,일본,0,
+ko,한국,韓,한국,0,
+ko,자동차,車,자동차,0,
+en,ev,\bbattery[\s-]electric[\s-](?:vehicles?|cars?)\b,ev,0,
+en,ev,\belectric[\s-](?:vehicles?|cars?)\b,ev,0,복수형 포함
+en,ev,\be-cars?\b,ev,0,
+en,ev,\bb?evs?\b,ev,0,"ev, evs, bev, bevs (EREV는 별도 차종이라 제외)"
+en,us,\bU\.S\.?|\bUS\b|\bUnited States\b|\bAmerica\b,us,1,대문자 US만 (대명사 us 제외)
+en,automaker,\b(?:automakers?|carmakers?|car makers?|auto companies)\b,automaker,0,복수형 포함
+en,charger,\b(?:charging stations?|chargers?)\b,charger,0,복수형 포함
+en,gas,\b(?:petrol|gasoline)\b,gas,0,휘발유 (gas prices의 gas와 같은 뜻)

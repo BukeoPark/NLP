@@ -1,0 +1,45 @@
+﻿lang,concept,matched_text,canonical,count,pattern
+ko,전기차,,전기차,0,전기\s*자동차
+ko,전기차,,전기차,0,(?<![A-Za-z0-9])(?:BEV|EV)s?(?![A-Za-z0-9])
+ko,전기차,,전기차,0,이브이
+ko,내연기관차,기름차,내연기관차,1,기름차
+ko,현대차,현대자동차,현대차,1,현대자동차
+ko,도요타,토요타,도요타,1,토요타
+ko,LG에너지솔루션,LG엔솔,LG에너지솔루션,1,LG엔솔
+ko,기후에너지환경부,기후부,기후에너지환경부,1,기후부
+ko,국정감사,국감,국정감사,2,국감
+ko,이재명,李,이재명,1,李
+ko,이재명,이 대통령,이재명 대통령,1,이 대통령
+ko,미국,美는,미국은,1,美는
+ko,미국,美,미국,6,美
+ko,중국,中,중국,3,中
+ko,일본,日,일본,2,日
+ko,한국,韓,한국,1,韓
+ko,자동차,車,자동차,2,車
+en,ev,battery-electric vehicles,ev,1,\bbattery[\s-]electric[\s-](?:vehicles?|cars?)\b
+en,ev,electric vehicle,ev,16,\belectric[\s-](?:vehicles?|cars?)\b
+en,ev,Electric Vehicle,ev,9,\belectric[\s-](?:vehicles?|cars?)\b
+en,ev,Electric Vehicles,ev,6,\belectric[\s-](?:vehicles?|cars?)\b
+en,ev,electric cars,ev,6,\belectric[\s-](?:vehicles?|cars?)\b
+en,ev,electric car,ev,3,\belectric[\s-](?:vehicles?|cars?)\b
+en,ev,Electric Cars,ev,2,\belectric[\s-](?:vehicles?|cars?)\b
+en,ev,Electric Car,ev,2,\belectric[\s-](?:vehicles?|cars?)\b
+en,ev,electric vehicles,ev,1,\belectric[\s-](?:vehicles?|cars?)\b
+en,ev,Electric cars,ev,1,\belectric[\s-](?:vehicles?|cars?)\b
+en,ev,Electric vehicle,ev,1,\belectric[\s-](?:vehicles?|cars?)\b
+en,ev,,ev,0,\be-cars?\b
+en,ev,EV,ev,31,\bb?evs?\b
+en,ev,EVs,ev,7,\bb?evs?\b
+en,us,U.S.,us,2,\bU\.S\.?|\bUS\b|\bUnited States\b|\bAmerica\b
+en,us,US,us,1,\bU\.S\.?|\bUS\b|\bUnited States\b|\bAmerica\b
+en,us,America,us,1,\bU\.S\.?|\bUS\b|\bUnited States\b|\bAmerica\b
+en,automaker,Automakers,automaker,2,\b(?:automakers?|carmakers?|car makers?|auto companies)\b
+en,automaker,Automaker,automaker,1,\b(?:automakers?|carmakers?|car makers?|auto companies)\b
+en,automaker,auto companies,automaker,1,\b(?:automakers?|carmakers?|car makers?|auto companies)\b
+en,automaker,automakers,automaker,1,\b(?:automakers?|carmakers?|car makers?|auto companies)\b
+en,automaker,carmaker,automaker,1,\b(?:automakers?|carmakers?|car makers?|auto companies)\b
+en,charger,charging stations,charger,3,\b(?:charging stations?|chargers?)\b
+en,charger,Charger,charger,2,\b(?:charging stations?|chargers?)\b
+en,charger,Charging Stations,charger,1,\b(?:charging stations?|chargers?)\b
+en,charger,chargers,charger,1,\b(?:charging stations?|chargers?)\b
+en,gas,petrol,gas,4,\b(?:petrol|gasoline)\b
